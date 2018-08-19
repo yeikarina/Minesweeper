@@ -102,13 +102,6 @@ public class BoardController {
                 }
             }
        }
-        /*System.out.println("");
-        for(int i=0; i<b.getHeight(); i++){
-            for(int j=0; j<b.getWidth(); j++){
-                System.out.print(auxMat[i][j]+" ");
-            }
-            System.out.println();
-       }*/
-       
+        
     }
 }
