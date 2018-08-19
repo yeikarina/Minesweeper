@@ -14,7 +14,7 @@ Para Iniciar: Ingresar el alto, ancho y el numero de minas del tablero separado 
 
 #Para jugar: Digitar altura, anchura y movimiento a realizar en la celda separado por espacio, ejempo: 2 5 M donde M es marcar bandera.
 
-IMPORTANTE!!: Los únicos movimientos posibles son M(marcar) y U(descubrir)");
+IMPORTANTE!!: Los únicos movimientos posibles son M(marcar) y U(descubrir)
 
 Salida:
 
