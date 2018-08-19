@@ -1,12 +1,5 @@
-# Created by https://www.gitignore.io/api/windows,netbeans
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+# Created by https://www.gitignore.io/api/windows
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -34,4 +27,4 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# End of https://www.gitignore.io/api/windows,netbeans
+# End of https://www.gitignore.io/api/windows
