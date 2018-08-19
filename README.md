@@ -2,7 +2,13 @@
 
 Este Programa corre en java 8 , ejecute Minesweeper.jar para empezar el juego.
 
-instrucciones del juego:
+Luego de crear la variable de entorno, abrir CMD y digitar: cd (inserte direccion de archivo).
+
+luego digitar java -jar Minesweeper.jar 
+
+
+
+Instrucciones del juego :
 
 Para Iniciar: Ingresar el alto, ancho y el numero de minas del tablero separado por espacio, por ejemplo: 8 15 10.
 
@@ -24,3 +30,5 @@ el juego mostrara una matriz con los siguientes simbolos:
 ‘1’ .. ‘9’ : Representa el numero de minas adyacentes a una celda
                                                             
 ‘ ’ (space) : Separa cada columna
+
+referencia: http://minesweeperonline.com/#
