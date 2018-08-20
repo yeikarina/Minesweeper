@@ -66,7 +66,6 @@ public class GameController {
         }else {
             if (board.getCells()[indexI-1][indexJ-1] == "*" && movement.equals("U")){
             gameOver = true;
-            showArray();
             gameOver();
             }
             else if(movement.equals("U") && boardUpdated.getCells()[indexI-1][indexJ-1].equals(" . ")){
@@ -311,8 +310,7 @@ public class GameController {
     }
     
     private void gameOver(){
-        System.out.println("\nEl juego ha terminado");
-        System.out.println("Has perdido :(");
+        
         for (int i = 0; i < boardUpdated.getHeight(); i++) {
             for (int j = 0; j < boardUpdated.getWidth(); j++) {
                 if(board.getCells()[i][j].equals("*")){
@@ -320,6 +318,9 @@ public class GameController {
                 }
             }
         }
+        showArray();
+        System.out.println("\nEl juego ha terminado");
+        System.out.println("Has perdido :(");
     }
     
     public boolean getGameOver() {
