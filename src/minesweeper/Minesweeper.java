@@ -33,7 +33,7 @@ public class Minesweeper {
                 + "                                          \nseparado por espacio, por ejemplo: 8 15 10"
                 + "                       \n2. Para jugar:   \nDigitar altura, anchura y movimiento a realizar en la "
                 + "                                          \ncelda separado por espacio, ejempo: 2 5 M donde M es "
-                + "                                          \nmarcar bandera."
+                + "                                          \nmarcar bandera que en el tablero sera una P."
                 + "                                          \nIMPORTANTE!!: Los únicos movimientos posibles son M(marcar) y U(descubrir)");
               
         do {
